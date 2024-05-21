@@ -24,4 +24,4 @@ jobs:
     - run: npm install -g npm
     - run: npm ci
     - run: npm run build --if-present
-    - run: npm test-snap:dev
+    - run: npm run test-snap:dev
