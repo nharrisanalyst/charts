@@ -10,6 +10,7 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "test-snap:dev": "TYPE=dev npm exec playwright test",
+    "test-snap:dev:update": "TYPE=dev npm exec playwright test --update-snapshots --reporter=list",
     "test-snap": "npm exec playwright test",
     "test-snap:update": "npm exec playwright test -u"
   },
