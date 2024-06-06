@@ -1,4 +1,4 @@
-name: Node.js playwright
+name: Node.js unit test
 
 on:
   push:
